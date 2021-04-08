@@ -4,11 +4,11 @@ window.addEventListener('keydown', (ev) => {
 	let template = `
     <div class="card">
         ${ev.key === ' ' ? 'Space' : ev.key} 
-        <small>event.key</small>
+        <small>tecla</small>
     </div>
     <div class="card">
         ${ev.keyCode} 
-        <small>event.keyCode</small>
+        <small>código</small>
     </div>
     <div class="card">
         ${ev.code} 
