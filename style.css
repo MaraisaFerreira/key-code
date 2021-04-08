@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 :root {
 }
@@ -8,12 +8,35 @@
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Muli', sans-serif;
+	background-color: #e1e1e1;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin: 0;
 	height: 100vh;
-	overflow: hidden;
+	text-align: center;
+}
+
+.card {
+	border: 1px solid #999;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	background-color: #eee;
+	box-shadow: 1px 1px 3px #0002;
+	min-width: 150px;
+	position: relative;
+}
+
+.card small {
+	position: absolute;
+	top: -22px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: #555;
+	font-size: 14px;
 }
